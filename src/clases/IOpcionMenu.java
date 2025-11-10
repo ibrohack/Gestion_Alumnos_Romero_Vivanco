@@ -1,5 +1,5 @@
 package clases;
 
-public class IOpcionMenu {
-
+public interface IOpcionMenu {
+	void ejecutar(GestorAlumnos gestorAlumnos);
 }
